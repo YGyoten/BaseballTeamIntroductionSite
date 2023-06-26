@@ -38,4 +38,15 @@ export default defineConfig({
   server: {
     port: 3000,
   },
+  build: {
+    // manifest: true,
+    // outDir: "public",
+    assetsDir: "./",
+  },
+  base: "./"
 })
+
+// module.exports = {
+//   assetsDir: './',
+//   publicPath: './',
+// }
